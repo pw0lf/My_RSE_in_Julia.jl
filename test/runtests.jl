@@ -5,3 +5,9 @@ f(x) = x
 
 f(x) = 9*x^2
 @test trapezodial(f,0,2,100000) ≈ 24
+
+f(x) = [x,9*x^2]
+@test trapezodial(f,0,2,100000) ≈ [2,24]
+
+f(x) = [x]
+@test_broken trapezodial(f,0,2,100000) ≈ [2]
