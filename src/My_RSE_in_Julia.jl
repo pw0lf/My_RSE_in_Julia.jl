@@ -1,8 +1,5 @@
-using Pkg
-Pkg.activate(".")
-Pkg.instantiate()
-
-
+module My_RSE_in_Julia
+export trapezodial
 """
     trapezodial(f::Function,start,stop,N)
 
@@ -25,5 +22,4 @@ function trapezodial(f::Function, start, stop, N)
     return result
 end
 
-f(x) = x*exp(x)
-@show trapezodial(f,-1,2,10000)
+end

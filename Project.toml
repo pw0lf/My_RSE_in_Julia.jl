@@ -1,1 +1,4 @@
-[deps]
+name = "My_RSE_in_Julia"
+uuid = "6e4cb1de-eda1-473c-ade1-f3392ceee4ed"
+authors = ["Philipp Wolf <pwolf01@students.uni-mainz.de>"]
+version = "0.1.0"
