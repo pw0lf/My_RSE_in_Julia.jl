@@ -44,6 +44,6 @@ makedocs(modules = [My_RSE_in_Julia],
              "License" => "license.md",
          ])
 
-deploydocs(repo = "pw0lf/My_RSE_in_Julia.jl",
+deploydocs(repo = "github.com/pw0lf/My_RSE_in_Julia.jl",
            devbranch = "main",
            push_preview = true)
